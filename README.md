@@ -506,15 +506,40 @@ lib32-gtk3 gst-plugins-base-libs lib32-gst-plugins-base-libs vulkan-icd-loader l
 
   Save with pressing Ctrl+O, Close with Ctrl+X.
 
+  Create a killscript:
+
+  ```
+  nano ~/.local/bin/osukill
+  ```
+
+  Copy-Paste this to your killscript:
+
+  ```
+  #!/usr/bin/env bash
+  #export PATH="/opt/wine-osu/bin:$PATH" #custom WINE ArchLinux
+  export PATH="$HOME/wine-osu/bin:$PATH" #custom WINE new
+
+  export WINEARCH=win32
+  export WINEPREFIX="$HOME/.wineosu"
+
+  wineserver -k
+  ```
+
+  Save with pressing Ctrl+O, Close with Ctrl+X.
+
   Copy-Paste to the terminal:
 
   ```
-  chmod +x ~/.local/bin/osu
+  chmod +x ~/.local/bin/osu && chmod +x ~/.local/bin/osukill
   ```
 
-  Now your script is executable!
+  Now your script and killscript are executable!
 
-  For Nvidia users - uncomment `export __GL_SYNC_TO_VBLANK=0 #For NVIDIA ` and comment `export vblank_mode=0 #For AMD, Intel and others` with # at the start of the line.
+  > For Nvidia users - uncomment\
+  > ```export __GL_SYNC_TO_VBLANK=0 #For NVIDIA``` \
+  > and comment \
+  > ```export vblank_mode=0 #For AMD, Intel and others``` \
+  > with # at the start of the line.
 
   Let's create .desktop file, so osu! will appear in applications section:
 
