@@ -309,7 +309,7 @@ Let's install Arch on your PC:
 
     Demonstration of this algorithm:
 
-    ![](https://vudek.s-ul.eu/ae1a6SMV.gif)
+    ![](https://vudek.s-ul.eu/yTbTuWQ4)
 
     So, you should choose thoose packages:
 
@@ -317,7 +317,7 @@ Let's install Arch on your PC:
 
     If you have Nvidia GPU, additionaly choose this package: `lib32-nvidia-utils`.
 
-    ![](https://vudek.s-ul.eu/qfWNIcsp.gif)
+    ![](https://vudek.s-ul.eu/dUgvjOxj)
 
     After choosing all needed packages, press **Enter**, everything should be like this:
 
