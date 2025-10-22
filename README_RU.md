@@ -600,6 +600,10 @@ lib32-gtk3 gst-plugins-base-libs lib32-gst-plugins-base-libs vulkan-icd-loader l
 
   Убедитесь, что галочка `Audio compatibility mode` включена.
 
+# Как изменить герцовку монитора?
+
+  ![Прочитайте это](https://github.com/Vudek/osu-on-linux/blob/main/refresh_rate.md)
+
 # Как установить OTD? 
 
   Откройте терминал, нажав Win+Enter.
