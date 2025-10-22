@@ -600,6 +600,10 @@ lib32-gtk3 gst-plugins-base-libs lib32-gst-plugins-base-libs vulkan-icd-loader l
 
   If you want to enjoy low latency audio, ensure that checkmark `Audio compatibility mode` is enabled.
 
+# How to change refresh rate?
+
+  ![Dive into this](https://github.com/Vudek/osu-on-linux/blob/main/refresh_rate.md)
+
 # How to install OTD? 
 
   Open terminal by pressing Win+Enter.
