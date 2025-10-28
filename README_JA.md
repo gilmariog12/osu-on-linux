@@ -1,7 +1,7 @@
 # osu-on-linux
 osu!低遅延ガイド2025
 
-# Language: [JA](README_JA.md) | [EN](https://github.com/Vudek/osu-on-linux/blob/main/README.md) | [RU](https://github.com/Vudek/osu-on-linux/blob/main/README_RU.md)
+# Language: [JA](README_JA.md) | [EN](README.md) | [RU](README_RU.md)
 
 # 以前のガイドが誰かによって削除されたので、Githubへ移行することを決めました。
 
