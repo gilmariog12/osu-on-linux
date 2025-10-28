@@ -26,22 +26,22 @@ osu!低遅延ガイド2025
 コピーが完了したら、PCを再起動してBIOSを開いて、USBを起動します。
 ![](https://vudek.s-ul.eu/Jy9WWfeo)
 
-重要：VentoyでArch Linuxのisoを選択したあと、**Boot in grub2 mode**を選択するとArch Linuxのインストールが成功しやすいです。
+重要:VentoyでArch Linuxのisoを選択したあと、**Boot in grub2 mode**を選択するとArch Linuxのインストールが成功しやすいです。
 ![](https://vudek.s-ul.eu/IkIYfIwM)
 
 それではArch Linuxをパソコンにインストールしましょう:
 
 1. isoを選択すると、以下のようなArch Linuxの起動画面が出ます。:
-   - BIOSの場合：
+   - BIOSの場合:
      
      ![](https://vudek.s-ul.eu/G5wEsEPG)
      
-   - UEFIの場合：
+   - UEFIの場合:
      
      ![](https://vudek.s-ul.eu/wrPKhSdP)
    `Arch Linux install medium`を選択し、セットアップがターミナルを起動するまで待ちます。
 
-2. ターミナルが起動すると次のような画面になります。：
+2. ターミナルが起動すると次のような画面になります。:
    
    ![](https://vudek.s-ul.eu/hPtc7p7w)
    
@@ -57,24 +57,24 @@ osu!低遅延ガイド2025
    
    ![](https://vudek.s-ul.eu/dCb5wmmK)
 
-   **Enter** キーを押すと前のメニューに戻ります。`Additional repositories` を選択し、**Enter** キーを押してください。：
+   **Enter** キーを押すと前のメニューに戻ります。`Additional repositories` を選択し、**Enter** キーを押してください。:
    ![](https://vudek.s-ul.eu/zTT8vJ6c)
 
    `multilib`を選択し、**Enter**を押します。、その後**Back**を選択し、**Enter**を押すと、インストールのメインメニューに戻ります。:
    
    ![](https://vudek.s-ul.eu/VcqZHE7Q)
 
-7. `Disk configuration`を選択し、**Enter**キーを押してください：
+7. `Disk configuration`を選択し、**Enter**キーを押してください:
    
    ![](https://vudek.s-ul.eu/KoClO7ji)
 
-   **Enter**キーを押してください：
+   **Enter**キーを押してください:
    
    ![](https://vudek.s-ul.eu/bINWpLyf)
 
-   ### 警告：本ガイドは別ディスクへのインストール用です。Windowsがインストールされているディスク上でのインストールは行わないでください。
+   ### 警告:本ガイドは別ディスクへのインストール用です。Windowsがインストールされているディスク上でのインストールは行わないでください。
 
-   `Use a best-effort default partition layout` を選択し、ディスクを選択してください：
+   `Use a best-effort default partition layout` を選択し、ディスクを選択してください:
 
    ![](https://vudek.s-ul.eu/edO7zAd8)
 
@@ -88,13 +88,13 @@ osu!低遅延ガイド2025
 
    ディスク容量が64GBから256GBの場合は、次の手順をスキップして6番の段落に進んでください。
 
-   # パーティションを手動でサイズ変更したい場合は、次の手順を実行してください：
+   # パーティションを手動でサイズ変更したい場合は、次の手順を実行してください:
    
    再度`Partitioning`を選択し、`Manual Partitioning`に進みます。:
    
    ![](https://vudek.s-ul.eu/ISVikhfK)
 
-   もう一度ディスクを選択してください：
+   もう一度ディスクを選択してください:
 
    ![](https://vudek.s-ul.eu/F1rbo5Yd)
 
@@ -105,7 +105,7 @@ osu!低遅延ガイド2025
    ラベル`/`の２番目のパーティションを選択し、`Enter`を押すと、次のメニューが表示されます。:
    ![](https://vudek.s-ul.eu/LX0CkWMy)
 
-   `Delete partition`を選択し、**Enter**キーを押します。これで`free`パーティションが作成されました：
+   `Delete partition`を選択し、**Enter**キーを押します。これで`free`パーティションが作成されました:
 
    ![](https://vudek.s-ul.eu/4pO26fPB)
 
@@ -119,11 +119,11 @@ osu!低遅延ガイド2025
 
    ![](https://vudek.s-ul.eu/CPcmG1Ey)
 
-   **Enter**キーを押すと、`Mountpoint`メニューが表示されます。最初のパーティションには `/` と入力してください：
+   **Enter**キーを押すと、`Mountpoint`メニューが表示されます。最初のパーティションには `/` と入力してください:
 
    ![](https://vudek.s-ul.eu/jnimdjZ9)
 
-   **Enter**を押すと、ディスクレイアウトが表示された前のメニューに戻ります。秋パーティションの`Size`を覚えておいてください。:
+   **Enter**を押すと、ディスクレイアウトが表示された前のメニューに戻ります。空きパーティションの`Size`を覚えておいてください。:
 
    ![](https://vudek.s-ul.eu/KZq0WUIJ)
 
@@ -148,7 +148,7 @@ osu!低遅延ガイド2025
    ![](https://vudek.s-ul.eu/PYNgs9dT)
 
    では、この手順を実行すると、ご覧の通り、`/boot`、`/`、`/home` のパーティションが作成されます！
-   `確認して終了`を選択し、**Enter**キーを押してください：
+   `確認して終了`を選択し、**Enter**キーを押してください:
 
    ![](https://vudek.s-ul.eu/oT6qh4qY)
 
@@ -160,7 +160,7 @@ osu!低遅延ガイド2025
 
    ![](https://vudek.s-ul.eu/9FfnyLbi)
 
-   私の場合、デフォルトのブートローダーとして`grub`が使用されています（VM内のレガシーBIOSのためです）。
+   私の場合、デフォルトのブートローダーとして`grub`が使用されています（仮想環境の設定がレガシーBIOSのせいです）。
    あなたのケースでは、デフォルトで `systemd-boot` が使用されます（UEFI BIOS の場合）、または同じ `grub` がデフォルトで使用されます（レガシー BIOS の場合）。
 
 9. `hostname`に進みます。:
@@ -187,11 +187,11 @@ osu!低遅延ガイド2025
 
    ![](https://vudek.s-ul.eu/BSz6wHci)
 
-   Enterキーを押すと、`Authentification`メニューに戻ります。`User account`を選択してください：
+   Enterキーを押すと、`Authentification`メニューに戻ります。`User account`を選択してください:
    
    ![](https://vudek.s-ul.eu/esdajcmh)
 
-   **Enter** キーを押すと、このメニューに入ります：
+   **Enter** キーを押すと、このメニューに入ります:
 
    ![](https://vudek.s-ul.eu/vEtZmWaS)
 
@@ -205,13 +205,13 @@ osu!低遅延ガイド2025
 
    ![](https://vudek.s-ul.eu/V5QPJBVP)
 
-   次のステップでは、前のステップと同じメニューが表示されます。ユーザーアカウントのパスワードを2回入力してください：
+   次のステップでは、前のステップと同じメニューが表示されます。ユーザーアカウントのパスワードを2回入力してください:
 
    ![](https://vudek.s-ul.eu/eKws0Kgp)
 
    ![](https://vudek.s-ul.eu/nwEFZaQE)
 
-   その後、「%user% をスーパーユーザー（sudo）にしますか？」という質問が表示されます。「はい」を選択し、**Enter** キーを押してください：
+   その後、「%user% をスーパーユーザー（sudo）にしますか？」という質問が表示されます。「はい」を選択し、**Enter** キーを押してください:
 
    ![](https://vudek.s-ul.eu/46Ih9Dbr)
 
@@ -221,7 +221,7 @@ osu!低遅延ガイド2025
 
    ![](https://vudek.s-ul.eu/psXqAifU)
 
-   「戻る」を選択すると、インストールのメインメニューに戻ります：
+   「戻る」を選択すると、インストールのメインメニューに戻ります:
 
    ![](https://vudek.s-ul.eu/t7cRFoH3)
 
@@ -231,7 +231,7 @@ osu!低遅延ガイド2025
 
    ![](https://vudek.s-ul.eu/X0pBjlEI)
 
-   `Type` を選択し、**Enter** キーを押してください。：
+   `Type` を選択し、**Enter** キーを押してください。:
 
    ![](https://vudek.s-ul.eu/V5uU47cK)
 
@@ -239,7 +239,7 @@ osu!低遅延ガイド2025
 
    ![](https://vudek.s-ul.eu/jDT7Ei0e)
 
-   メニュー画面が表示されます。ここでデスクトップ環境を選択できます。より良いレイテンシーのためには、i3-wm を選択し、**Enter** キーを押してください：
+   メニュー画面が表示されます。ここでデスクトップ環境を選択できます。より良いレイテンシーのためには、i3-wm を選択し、**Enter** キーを押してください:
 
    ![](https://vudek.s-ul.eu/zeyPgvdf)
 
@@ -263,19 +263,19 @@ osu!低遅延ガイド2025
 
    ![](https://vudek.s-ul.eu/SWZowNH7)
 
-12. `Applications`に移動し、**Enter**キーを押します：
+12. `Applications`に移動し、**Enter**キーを押します:
    
    ![](https://vudek.s-ul.eu/qC7P5QmP)
 
-   `Audio`を選択し、**Enter**キーを押してください：
+   `Audio`を選択し、**Enter**キーを押してください:
 
    ![](https://vudek.s-ul.eu/DbCDZSd9)
 
-   このメニューで `pipewire` を選択し、**Enter** キーを押してください：
+   このメニューで `pipewire` を選択し、**Enter** キーを押してください:
 
    ![](https://vudek.s-ul.eu/8jlmHzI7)
 
-   `Back`を選択し、メインメニューに戻るには、**Enter**キーを押してください：
+   `Back`を選択し、メインメニューに戻るには、**Enter**キーを押してください:
 
    ![](https://vudek.s-ul.eu/rr2ogUHt)
 
@@ -283,13 +283,13 @@ osu!低遅延ガイド2025
     
     ![](https://vudek.s-ul.eu/85zkonsN)
 
-    スペースキーを押して、`linux`から`x`を削除し、`linux-zen`を選択して再度スペースキーを押し、**Enter**キーを押してください：
+    スペースキーを押して、`linux`から`x`を削除し、`linux-zen`を選択して再度スペースキーを押し、**Enter**キーを押してください:
 
     ![](https://vudek.s-ul.eu/8cAKQxVy)
 
     ![](https://vudek.s-ul.eu/bm0l2CBH)
 
-14. `Network configuration`に移動し、**Enter**キーを押してください：
+14. `Network configuration`に移動し、**Enter**キーを押してください:
 
     ![](https://vudek.s-ul.eu/NeLf6hxX)
 
@@ -297,7 +297,7 @@ osu!低遅延ガイド2025
 
     ![](https://vudek.s-ul.eu/AwFoPNb4)
 
-15. `Additional packages`に移動し、**Enter**キーを押してください：
+15. `Additional packages`に移動し、**Enter**キーを押してください:
 
     ![](https://vudek.s-ul.eu/ctZvGaJE)
 
@@ -312,7 +312,7 @@ osu!低遅延ガイド2025
 
     ![](https://vudek.s-ul.eu/yTbTuWQ4)
 
-    では、以下のパッケージを選択してください：
+    では、以下のパッケージを選択してください:
 
     `git chromium winetricks lib32-gnutls lib32-libxcomposite kitty rofi nemo flameshot`
 
@@ -320,15 +320,15 @@ osu!低遅延ガイド2025
 
     ![](https://vudek.s-ul.eu/dUgvjOxj)
 
-    必要なパッケージをすべて選択したら、**Enter**キーを押してください。すべてが以下のようになります：
+    必要なパッケージをすべて選択したら、**Enter**キーを押してください。すべてが以下のようになります:
 
     ![](https://vudek.s-ul.eu/TPDK3UYi)
 
-16. `Timezone`に移動し、**Enter**キーを押してください：
+16. `Timezone`に移動し、**Enter**キーを押してください:
 
     ![](https://vudek.s-ul.eu/SKVECPHx)
 
-    ここで、`/`を押して検索し、タイムゾーンを選択してください（私の場合は `/Minsk` です)：
+    ここで、`/`を押して検索し、タイムゾーンを選択してください（私の場合は `/Minsk` です):
 
     ![](https://vudek.s-ul.eu/p5NyW2Zb)
 
@@ -342,7 +342,7 @@ osu!低遅延ガイド2025
 
     ![](https://vudek.s-ul.eu/dPeZLvk3)
 
-    「指定された構成が適用されます。続行しますか？」という質問が表示されます。`Yes` を選択し、**Enter** キーを押してください：
+    「指定された構成が適用されます。続行しますか？」という質問が表示されます。`Yes` を選択し、**Enter** キーを押してください:
 
     ![](https://vudek.s-ul.eu/4drvTzi9)
 
@@ -381,7 +381,7 @@ osu!低遅延ガイド2025
 
   ![](https://vudek.s-ul.eu/rJW33xBm)
 
-  ブラウザで[this webpage](https://github.com/Vudek/osu-on-linux)を開き、以下をコピーしてください：
+  ブラウザで[this webpage](https://github.com/Vudek/osu-on-linux)を開き、以下をコピーしてください:
 
   ```
   wget http://puu.sh/KClvp/49aa8dee55 -O ~/.config/i3/config
@@ -412,14 +412,14 @@ osu!低遅延ガイド2025
 
   その後、**Enter**キーを押すと、パスワードの入力を求められます。
 
-  警告：パスワードはターミナルに表示されません！
+  警告:パスワードはターミナルに表示されません！
 
   Y を入力し、Enter キーを押して `removing wireplumber` を実行します。
   Y を入力し、もう一度 Enter キーを押して `pipewire-media-session` をインストールします。
 
   ![](https://vudek.s-ul.eu/DfPgb6tR)
 
-  この手順の後、wine-1x を wine-9.22-1 にダウングレードする必要があります。ターミナルに以下をコピーしてください：
+  この手順の後、wine-1x を wine-9.22-1 にダウングレードする必要があります。ターミナルに以下をコピーしてください:
 
   ```
   mkdir -p ~/Downloads && cd ~/Downloads && wget https://github.com/Vudek/wine-9.22-1-x86_64/releases/download/wine-9.22-1-x86_64.pkg.tar.zst/wine-9.22-1-x86_64.pkg.tar.zst && sudo pacman -U wine-9.22-1-x86_64.pkg.tar.zst && cd
@@ -592,7 +592,7 @@ lib32-gtk3 gst-plugins-base-libs lib32-gst-plugins-base-libs vulkan-icd-loader l
 
 # さあ、osu!を起動しよう！
 
-  Win+Rキーを押すとアプリケーション一覧が開きます。osu! と入力し、**Enter**キーを押してください：
+  Win+Rキーを押すとアプリケーション一覧が開きます。osu! と入力し、**Enter**キーを押してください:
 
   ![](https://vudek.s-ul.eu/v742bcLJ)
 
@@ -605,7 +605,7 @@ lib32-gtk3 gst-plugins-base-libs lib32-gst-plugins-base-libs vulkan-icd-loader l
 # OpenTabletDriverのインストール方法 
 
   WinキーとEnterキーを同時に押してターミナルを開きます。
-ターミナルに以下をコピーしてください：
+ターミナルに以下をコピーしてください:
 
   ```
   sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -si && yay -S opentabletdriver osu-handler osu-mime
@@ -617,7 +617,7 @@ lib32-gtk3 gst-plugins-base-libs lib32-gst-plugins-base-libs vulkan-icd-loader l
   
   このコマンドは `yay`、`opentabletdriver`、`osu-handler`、および `osu-mime` をインストールします
 
-  OTDのインストール後、以下のコマンドをターミナルにコピー＆ペーストしてください：
+  OTDのインストール後、以下のコマンドをターミナルにコピー＆ペーストしてください:
 
   ```
   echo "blacklist wacom" | sudo tee -a /etc/modprobe.d/blacklist.conf
@@ -653,7 +653,7 @@ lib32-gtk3 gst-plugins-base-libs lib32-gst-plugins-base-libs vulkan-icd-loader l
 
   `MODULE ISN'T LOADED`のようなエラーが表示されても、無視してください。
 
-   OTDを開きましょう：
+   OTDを開きましょう:
 
   - Win+3 を押してデスクトップを切り替える
   - Win+R を押してアプリケーション一覧を開く
