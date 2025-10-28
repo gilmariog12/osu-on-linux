@@ -1,7 +1,7 @@
 # osu-on-linux
 osu! low latency guide 2025 version 
 
-# Language: [EN](https://github.com/Vudek/osu-on-linux/blob/main/README.md) | [RU](https://github.com/Vudek/osu-on-linux/blob/main/README_RU.md)
+# Language: [EN](https://github.com/Vudek/osu-on-linux/blob/main/README.md) | [RU](https://github.com/Vudek/osu-on-linux/blob/main/README_RU.md) | [JA](README_JA.md)
 
 # As my previous guide was nuked by someone, I made a decision to move it to github  
 
