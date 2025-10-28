@@ -1,8 +1,3 @@
----
-title: For Nvidia
-
----
-
 # Nvidiaユーザ
 
 0. `nvidia-settings`をインストール:
